@@ -1,0 +1,30 @@
+
+.main_menu {
+    padding-top: 39px;
+    padding-bottom: 39px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    background-color: $brandColor_secondary;
+}
+
+.menu_style {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    color: $textColor_main;
+    transition: 0.5s;
+}
+
+.menu_style:hover {
+    color:#758ed1 ;
+}
+
+.navbar {
+    display: none;
+}
+
+
